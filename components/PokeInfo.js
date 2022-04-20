@@ -3,7 +3,7 @@ import React from "react";
 function PokeInfo({ data }) {
   console.log(data);
   return (
-    <div key={data.id}>
+    <div>
       {!data ? (
         ""
       ) : (
